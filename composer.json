@@ -1,0 +1,26 @@
+{
+    "name": "hossam-mohamed/framework",
+    "description": "phplite framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hossam Mohamed",
+            "email": "homoh1489@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filp/whoops": "^2.14",
+        "jenssegers/blade": "^1.4",
+        "rakit/validation": "^1.4"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "phplite\\" : "src/"
+        },
+        "files" : [
+            "src/Helper/helper.php"
+        ]
+    } 
+}
