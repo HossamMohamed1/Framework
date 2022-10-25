@@ -20,7 +20,7 @@
             "phplite\\" : "src/"
         },
         "files" : [
-            "src/Helper/helper.php"
+            "src/Helpers/helper.php"
         ]
     } 
 }
